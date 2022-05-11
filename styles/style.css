@@ -259,7 +259,7 @@ position: absolute;
 }
 
 
-.promo section div {
+.promo section .prez {
 position: absolute;
     left: 0px;
     top: 160px;
@@ -277,11 +277,21 @@ position: absolute;
 }
 
 
-.promo section div:hover {
+.promo section .prez:hover {
 background: #3DCCC7;
 color: #ffffff;
 }
 
+.belt {
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 209px solid white;
+    position: absolute;
+    top: 21px;
+    left: 419px;
+}
 
 /* Заголовки с полосой */
 
@@ -562,7 +572,7 @@ text-align: left;
 .formaplace {
 
     background: #3DCCC7;
-    height: 780px;
+    height: 840px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -587,8 +597,7 @@ text-align: left;
     
 .formatut {   
         width: 680px;
-    height: 550px;
-    background: aliceblue;
+    height: 670px;
     }
     
     
@@ -670,6 +679,57 @@ color: #3DCCC7;
 
 
 
+
+
+
+
+/* ВНУТРИ */
+
+
+
+.vnutr {
+    width: 900px;
+    margin: -77px auto;
+    background: white;
+    min-height: 500px;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    font-size: 14px;
+    margin-bottom: 100px;
+    color: #5B5B5B;
+}
+
+.vnutr h3 {
+    font-size: 26px;
+    margin: 0;
+}
+
+
+.vbutt {
+
+    background: #FFCC00;
+    border-radius: 6px;
+    width: 100%;
+    height: 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5B5B5B;
+    text-align: center;
+    padding-top: 12px;
+    text-transform: uppercase;
+
+}
+
+
+.vbutt:hover {
+background: #3DCCC7;
+color: #ffffff;
+}
+
+
+
 /*  МОБИЛЬНАЯ ВЕРСИЯ */
 
 @media all and (max-width: 980px) {
@@ -681,7 +741,7 @@ display: none;
 
 
 .promo {
-    padding-top: 52px;
+    padding-top: 91px;
     width: 660px;
     height: 740px;
     background-color: #ffffff;
@@ -727,7 +787,7 @@ display: none;
     position: absolute;
 }
 
-.promo section div {
+.promo section .prez {
     position: absolute;
     left: 30px;
     top: 581px;
@@ -1048,7 +1108,7 @@ display: none;
 
 .formaplace {
     background: #3DCCC7;
-    height: 780px;
+    height: 850px;
     width: 660px;
     display: flex;
     justify-content: center;
@@ -1066,13 +1126,12 @@ display: none;
     color: #ffffff;
     margin: 0;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .formatut {
     width: 600px;
-    height: 550px;
-    background: aliceblue;
+    height: 670px;
 }
 
 .podval {
@@ -1136,7 +1195,7 @@ display: none;
   background-color: #F4F4F4;
   left: 0;
   right: 0;
-  height: 70px;
+  height: 90px;
   z-index: 9999999;
       width: 660px;
     box-sizing: border-box;
@@ -1180,7 +1239,7 @@ display: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 50px;
+  top: 89px;
   left: 0;
   right: 0;
   z-index: 999;
@@ -1230,11 +1289,98 @@ display: none;
 
 
 
+
+
+
+
+
+
+
 .logo {
 position: absolute;
     left: 20px;
     top: 17px;
 }
 
+.belt {
+display: none;
+}
+
+.logo_k {
+    height: 55px;
+}
+
+
+.logo_o {
+    height: 55px;
+    left: 27px;
+    position: absolute;
+}
+
+.logo span {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    width: 200px;
+    left: 95px;
+    top: 5px;
+    color: #474747;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vnutr {
+    width: 660px;
+    margin: -127px auto;
+    background: white;
+    min-height: 500px;
+    box-sizing: border-box;
+    padding: 40px 30px;
+    font-size: 24px;
+    margin-bottom: 100px;
+    color: #5B5B5B;
+}
+
+.vnutr h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.vbutt {
+    background: #FFCC00;
+    border-radius: 6px;
+    width: 100%;
+    height: 56px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: normal;
+    color: #5B5B5B;
+    text-align: center;
+    padding-top: 22px;
+    text-transform: uppercase;
+}
+
+
+.b24-form-btn {
+    font-size: 28px;
+    text-transform: uppercase;
+    height: 69px;
+    padding-top: 12px;
+
+}
 
 }
